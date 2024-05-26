@@ -1,0 +1,11 @@
+def wyswietl_stan(self):
+    print("Twój stan:")
+    print(f"Zdrowie: {self.policjant.zdrowie}")
+    print(f"Energia: {self.policjant.energia}")
+    print(f"Pieniądze: {self.policjant.pieniadze}")
+    print(f"Szczęście: {self.policjant.szczescie}")
+    print(f"Zadowolenie z pracy: {self.policjant.zadowolenie_z_pracy}")
+    print(f"Umiejętności: {self.policjant.umiejetnosci}")
+    print(f"Liczba widzów: {self.policjant.liczba_widzow}")
+    print(f"Oglądalność: {self.policjant.ogladalnosc}")
+    print()
